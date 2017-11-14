@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
         recyclerview.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false));
         List<ExpandableListAdapter.Item> data = new ArrayList<>();
 
+        //data
         data.add(new ExpandableListAdapter.Item(ExpandableListAdapter.HEADER, "Fruits"));
         data.add(new ExpandableListAdapter.Item(ExpandableListAdapter.CHILD, "Apple"));
         data.add(new ExpandableListAdapter.Item(ExpandableListAdapter.CHILD, "Orange"));
